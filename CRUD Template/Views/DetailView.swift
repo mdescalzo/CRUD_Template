@@ -39,6 +39,7 @@ struct DetailView: View {
       .padding()
     }
     .padding()
+    .background(AppTheme.backgroundColor)
     .navigationBarItems(trailing: HStack {
       if isEditing {
         Button("Cancel") {

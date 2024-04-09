@@ -27,6 +27,7 @@
 		7D7C036D2BC5C252003ABF54 /* AddItemModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C036C2BC5C252003ABF54 /* AddItemModalView.swift */; };
 		7D7C036F2BC5CEC5003ABF54 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C036E2BC5CEC5003ABF54 /* ListRow.swift */; };
 		7D7C03712BC5D89A003ABF54 /* ItemViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C03702BC5D89A003ABF54 /* ItemViewModelTests.swift */; };
+		7D7C03732BC5DA44003ABF54 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C03722BC5DA44003ABF54 /* AppTheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		7D7C036C2BC5C252003ABF54 /* AddItemModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemModalView.swift; sourceTree = "<group>"; };
 		7D7C036E2BC5CEC5003ABF54 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
 		7D7C03702BC5D89A003ABF54 /* ItemViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModelTests.swift; sourceTree = "<group>"; };
+		7D7C03722BC5DA44003ABF54 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				7D7C03622BC59EB2003ABF54 /* ViewModels */,
 				7D7C035D2BC4ABB7003ABF54 /* DataModels */,
 				7D7C03222BC4873A003ABF54 /* CRUD_TemplateApp.swift */,
+				7D7C03722BC5DA44003ABF54 /* AppTheme.swift */,
 				7D7C03262BC4873C003ABF54 /* Assets.xcassets */,
 				7D7C03282BC4873C003ABF54 /* Preview Content */,
 			);
@@ -345,6 +348,7 @@
 				7D7C03232BC4873A003ABF54 /* CRUD_TemplateApp.swift in Sources */,
 				7D7C03692BC5AE42003ABF54 /* EditingDetailCard.swift in Sources */,
 				7D7C036D2BC5C252003ABF54 /* AddItemModalView.swift in Sources */,
+				7D7C03732BC5DA44003ABF54 /* AppTheme.swift in Sources */,
 				7D7C03562BC4A0E1003ABF54 /* RootView.swift in Sources */,
 				7D7C03522BC4A0B9003ABF54 /* DetailView.swift in Sources */,
 				7D7C032F2BC4873C003ABF54 /* CRUD_Template.xcdatamodeld in Sources */,

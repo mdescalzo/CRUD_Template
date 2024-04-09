@@ -18,13 +18,14 @@ struct ListRow: View {
       VStack(alignment: .leading) {
         Text(title)
           .font(.headline)
+          .foregroundColor(AppTheme.textColor)
         Text("Priority: \(priority)")
           .font(.subheadline)
+          .foregroundColor(AppTheme.textColor)
         Text("Completed: \(completed ? "Yes" : "No")")
           .font(.footnote)
-          .foregroundColor(completed ? .green : .red)
+          .foregroundColor(completed ? AppTheme.completeColor : AppTheme.incompleteColor)
       }
-//      .padding()
       Spacer()
     }
     .frame(maxWidth: .infinity)
@@ -34,6 +35,6 @@ struct ListRow: View {
 #Preview {
   ListRow(title: "Do the thing", completed: false, priority: 2)
     .previewLayout(.sizeThatFits)
-    .background(Color.gray)
+    .border(Color.gray)
     .padding()
 }

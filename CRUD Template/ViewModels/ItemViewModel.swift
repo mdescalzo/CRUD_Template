@@ -15,7 +15,7 @@ class ItemViewModel: ObservableObject {
   @Published var title: String = ""
   @Published var descriptionText: String = ""
   @Published var completed: Bool = false
-  @Published var priority: Int16 = 0
+  @Published var priority: Int = 0
   @Published var timestamp: Date = Date()
   
   init(item: Item, context: NSManagedObjectContext) {
@@ -37,15 +37,17 @@ class ItemViewModel: ObservableObject {
     title = item.title ?? ""
     descriptionText = item.descriptionText ?? ""
     completed = item.completed
-    priority = item.priority
-    timestamp = item.timestamp
+    priority = Int(item.priority)
+    if let ts = item.timestamp {
+      timestamp = ts
+    }
   }
   
   func saveChanges() {
     item.title = self.title
     item.descriptionText = self.descriptionText
     item.completed = self.completed
-    item.priority = self.priority
+    item.priority = Int64(self.priority)
     item.timestamp = self.timestamp
     
     do {

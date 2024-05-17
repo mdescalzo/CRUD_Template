@@ -16,7 +16,7 @@ struct AddItemModalView: View {
   @State var title: String = ""
   @State var descriptionText: String = ""
   @State var completed: Bool = false
-  @State var priority: Int16 = 3
+  @State var priority: Int = 3
   @State var timestamp: Date = Date()
   
   var body: some View {
@@ -49,7 +49,7 @@ struct AddItemModalView: View {
     let newItem = Item.newItem(managedObjectContext: viewContext)
     newItem.title = self.title
     newItem.descriptionText = self.descriptionText
-    newItem.priority = self.priority
+    newItem.priority = Int64(self.priority)
     newItem.completed = self.completed
     newItem.timestamp = self.timestamp
     

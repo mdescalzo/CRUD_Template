@@ -11,7 +11,7 @@ struct EditingDetailCard: View {
   @Binding var title: String
   @Binding var descriptionText: String
   @Binding var completed: Bool
-  @Binding var priority: Int16
+  @Binding var priority: Int
   @Binding var timestamp: Date
   
   var body: some View {

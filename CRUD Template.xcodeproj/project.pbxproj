@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D621A072BF6858400264977 /* PersistenceControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D621A062BF6858400264977 /* PersistenceControllerTests.swift */; };
 		7D7C03232BC4873A003ABF54 /* CRUD_TemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C03222BC4873A003ABF54 /* CRUD_TemplateApp.swift */; };
 		7D7C03272BC4873C003ABF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D7C03262BC4873C003ABF54 /* Assets.xcassets */; };
 		7D7C032A2BC4873C003ABF54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D7C03292BC4873C003ABF54 /* Preview Assets.xcassets */; };
@@ -20,7 +21,6 @@
 		7D7C03562BC4A0E1003ABF54 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C03552BC4A0E1003ABF54 /* RootView.swift */; };
 		7D7C035B2BC4AB99003ABF54 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C03592BC4AB99003ABF54 /* Item+CoreDataClass.swift */; };
 		7D7C035F2BC4AD64003ABF54 /* Item+Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C035E2BC4AD64003ABF54 /* Item+Factory.swift */; };
-		7D7C03612BC4F4BE003ABF54 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C03602BC4F4BE003ABF54 /* Item+CoreDataProperties.swift */; };
 		7D7C03642BC59ED4003ABF54 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C03632BC59ED4003ABF54 /* ItemViewModel.swift */; };
 		7D7C03672BC5A4E8003ABF54 /* DetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C03662BC5A4E8003ABF54 /* DetailCard.swift */; };
 		7D7C03692BC5AE42003ABF54 /* EditingDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7C03682BC5AE42003ABF54 /* EditingDetailCard.swift */; };
@@ -48,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D621A062BF6858400264977 /* PersistenceControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceControllerTests.swift; sourceTree = "<group>"; };
 		7D7C031F2BC4873A003ABF54 /* CRUD Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CRUD Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D7C03222BC4873A003ABF54 /* CRUD_TemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUD_TemplateApp.swift; sourceTree = "<group>"; };
 		7D7C03262BC4873C003ABF54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,7 +65,6 @@
 		7D7C03552BC4A0E1003ABF54 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		7D7C03592BC4AB99003ABF54 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7D7C035E2BC4AD64003ABF54 /* Item+Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+Factory.swift"; sourceTree = "<group>"; };
-		7D7C03602BC4F4BE003ABF54 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7D7C03632BC59ED4003ABF54 /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
 		7D7C03662BC5A4E8003ABF54 /* DetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCard.swift; sourceTree = "<group>"; };
 		7D7C03682BC5AE42003ABF54 /* EditingDetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingDetailCard.swift; sourceTree = "<group>"; };
@@ -122,12 +122,12 @@
 		7D7C03212BC4873A003ABF54 /* CRUD Template */ = {
 			isa = PBXGroup;
 			children = (
+				7D7C03222BC4873A003ABF54 /* CRUD_TemplateApp.swift */,
 				7D7C036B2BC5C1A6003ABF54 /* Storage */,
 				7D7C036A2BC5C196003ABF54 /* Views */,
 				7D7C03652BC5A4CC003ABF54 /* Components */,
 				7D7C03622BC59EB2003ABF54 /* ViewModels */,
 				7D7C035D2BC4ABB7003ABF54 /* DataModels */,
-				7D7C03222BC4873A003ABF54 /* CRUD_TemplateApp.swift */,
 				7D7C03722BC5DA44003ABF54 /* AppTheme.swift */,
 				7D7C03262BC4873C003ABF54 /* Assets.xcassets */,
 				7D7C03282BC4873C003ABF54 /* Preview Content */,
@@ -148,6 +148,7 @@
 			children = (
 				7D7C03382BC4873C003ABF54 /* CRUD_TemplateTests.swift */,
 				7D7C03702BC5D89A003ABF54 /* ItemViewModelTests.swift */,
+				7D621A062BF6858400264977 /* PersistenceControllerTests.swift */,
 			);
 			path = "CRUD TemplateTests";
 			sourceTree = "<group>";
@@ -165,7 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				7D7C03592BC4AB99003ABF54 /* Item+CoreDataClass.swift */,
-				7D7C03602BC4F4BE003ABF54 /* Item+CoreDataProperties.swift */,
 				7D7C035E2BC4AD64003ABF54 /* Item+Factory.swift */,
 			);
 			path = DataModels;
@@ -343,7 +343,6 @@
 				7D7C035B2BC4AB99003ABF54 /* Item+CoreDataClass.swift in Sources */,
 				7D7C032C2BC4873C003ABF54 /* Persistence.swift in Sources */,
 				7D7C03642BC59ED4003ABF54 /* ItemViewModel.swift in Sources */,
-				7D7C03612BC4F4BE003ABF54 /* Item+CoreDataProperties.swift in Sources */,
 				7D7C03542BC4A0CD003ABF54 /* ListView.swift in Sources */,
 				7D7C03232BC4873A003ABF54 /* CRUD_TemplateApp.swift in Sources */,
 				7D7C03692BC5AE42003ABF54 /* EditingDetailCard.swift in Sources */,
@@ -361,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D621A072BF6858400264977 /* PersistenceControllerTests.swift in Sources */,
 				7D7C03392BC4873C003ABF54 /* CRUD_TemplateTests.swift in Sources */,
 				7D7C03712BC5D89A003ABF54 /* ItemViewModelTests.swift in Sources */,
 			);

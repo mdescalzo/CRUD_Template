@@ -31,7 +31,7 @@ struct ListView: View {
         }
         .onDelete(perform: deleteItems)
       }
-      .navigationTitle("To-do List")h
+      .navigationTitle("To-do List")
       .toolbar {
         ToolbarItem(placement: .navigationBarTrailing) {
           EditButton()

@@ -11,7 +11,7 @@ struct ListRow: View {
   
   var title: String
   var completed: Bool
-  var priority: Int16
+  var priority: Int
   
   var body: some View {
     HStack {
